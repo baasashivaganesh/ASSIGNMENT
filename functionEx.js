@@ -79,5 +79,62 @@
 //     console.log("hello");
 // }
 // demo();
-let x = ()=>console.log("hello");
+
+// concising in arrow function
+// let x = ()=>console.log("hello");
+// x();
+
+// let x = a=>console.log(a);
+// x(1);a+b);
+// x(5,6);
+
+//!return -implicit return,explicit return
+// function add(a,b){
+//     console.log("i am  printing before return keyword");
+//     return a+b;//explicit return,return is an end of a statement
+//     console.log("i am  printing after return keyword")
+// }
+// let x = add(4,5);
+// console.log(x);
+
+//!higher order function
+// function hof(a){
+//     return a;
+// };
+// let x = hof("instagram");
+// console.log(x);
+// let x = hof(function(){return "this is callback function"});
+// console.log(x);
+
+// function add(callback){
+//     return callback(4,5);
+// };
+// let x = add(function(a,b){return a+b});
+// console.log(x);
+
+// let users = ["prashanth", "hemanth", "aravind", "surya"];
+// // //console.log(users[0]);
+// //console.log(users[1]);
+// for(let i=0;i<users.length;i++){
+//     console.log(users[i]);
+// }
+
+//  let x=users.map((user)=>{
+//     // console.log(user);
+//    return user;
+// });
+// console.log(x);
+// let x = users.forEach((user)=>{
+//     return(user);
+// });
+// console.log(x);
+var a = 10;
+let b = 30;
+function x(){
+    var user = "sharavan";
+    let company = "amazon";
+    console.log(user);
+    console.log(company);
+    console.log(a,b);
+}
 x();
