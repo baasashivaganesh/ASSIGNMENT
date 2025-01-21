@@ -22,6 +22,7 @@ syntax:-()->{};
 7.callback function :-
 -callback function is a function which is passed as a value or arguments to another function
 -closure:-closure is a memory created when functions bundled together by giving accessibility to the innermost function to access the variables of the outermost function.
+                                                                
 
 Note:-current version of javascript-es14.
 es-ECMA script

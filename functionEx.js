@@ -128,13 +128,44 @@
 //     return(user);
 // });
 // console.log(x);
-var a = 10;
-let b = 30;
+// var a = 10;
+// let b = 30;
+// function x(){
+//     var user = "sharavan";
+//     let company = "amazon";
+//     console.log(user);
+//     console.log(company);
+//     console.log(a,b);
+// }
+// x();
+
+// function x(){
+//     var a = 10;
+//     let b = 20;
+//     console.log(a,b);
+//     function y(){
+//         let p = "ss";
+//         let q = "ff"
+//         console.log(p,q);
+//     }
+// }x();
+
 function x(){
-    var user = "sharavan";
-    let company = "amazon";
-    console.log(user);
-    console.log(company);
+    let a=10;
+    const b=20;
     console.log(a,b);
+    function y(){
+        let p="js";
+        var q="react";
+        console.log(p,q);
+        function z(){
+            const username="parish";
+            console.log(username);
+            console.log(a);
+            console.log(q);
+        }
+        z();
+    }
+    y();
 }
 x();
