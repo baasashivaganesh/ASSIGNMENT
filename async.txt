@@ -1,8 +1,30 @@
 
 Asynchronous:-making javascript to work multiple work simultaneously.
 1.setTimeout():-it is a web api used to work multiple work simultaneously.
-2.setIntervel():-it is used to perfrom async operations
+
+2.setInterval():-it is used to perform async operations
+
 3.Promise:-it is ana object which represents the eventual compilation or failures of asynchronous operations.
 syntax:- let p=new promise((resolve,reject)=>{});
 -for handling the promise we have instant methods
-4.Async & await
+
+4.Async & await:-
+async:-this keyword makes asynchronous function as asynchronous function and start to execute the promise.
+await:-this keyword will make the function 
+
+DOM:-document object model 
+-DOM is a web api used to manipulate the html content.
+-DOM is used to add,remove,update the content inside the html document.
+
+methods of DOM:-
+1.document.getElementByID("");:-this method used to target the html element based on "id" attribute value.
+                              -with id attribute we can select only one element(unique element).
+                
+2.document.getElementsByClassName("");:-this method is used to target the html element based on "class" attribute.
+                                      -with class attribute we can select multiple element with same class name.
+3.document.getElementByTagName("");:-this method is used to target the html based on the tag name.
+
+4.document.getElementByName("");:-this method is used to target the element based on "name" attribute.
+5.ocument.querySelector("");:-this method selects only one element.
+6.document.querySelectorAll("");:-this method selects multiple elements.
+
