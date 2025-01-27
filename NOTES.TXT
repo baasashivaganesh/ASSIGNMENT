@@ -1,0 +1,4 @@
+creation of elements dynamically from javascript:-
+-to create an html element in javascript we use a method called as "document.createElement("tag name")
+-in js, we can be added with a method called as "setAttribute"
+
